@@ -1,4 +1,4 @@
-const url = 'https://api-football-v1.p.rapidapi.com/v3/fixtures?live=all'
+const url = 'https://api-football-v1.p.rapidapi.com/v3/fixtures?date=2022-09-07'
 
 const options = {
 	method: 'GET',

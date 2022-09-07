@@ -7,7 +7,7 @@ body {
     min-width: 50%;
     max-height: 80%;
     min-height: 50%;
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -18,14 +18,13 @@ body {
     min-width: 50%;
     max-height: 80%;
     min-height: 50%;
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
 
 #scoreBoard {
-    width: auto;
     height: 70vh;
     position: relative;
     top: 50%;
@@ -34,8 +33,8 @@ body {
 }
 
 #frame {
-    width: 100vh;
-    height: 70vh;
+    width: 900px;
+    height: 700px;
     border-radius: 30px;
     background-color: rgb(255, 255, 255);
     position: absolute;
@@ -54,28 +53,29 @@ body {
 }
 
 #logo1, #logo2 {
-  
-    width: 20vh;
-    height: 20vh;
+    resize: none;
+    width: 200px;
+    height: 200px;
+    min-width:100px;
+    min-height:100px;
     background-color: rgb(224, 220, 220);
     border-radius: 30px;
-    position: relative;
+    position: absolute;
 }
 
 #teamName1, #teamName2 {
-    font-size: 100%;
+    font-size: 30px;
     font-family: Nunito, sans-serif;
-    min-width: 130px;
-    max-width: 140px;
-    height: 140px;
-    position: absolute;
-    top: 140%;
+    position: relative;
+    width: auto;
+    text-align: center;
+    top: 130%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
 
 #teamName2 {
-    left: 65%;
+    right: 50%;
 }
 
 .team1,.team2 {
@@ -105,9 +105,10 @@ body {
 }
 
 .buttons {
-    width: 100vh;
+    width: 900px;
+    background-color: #df8a8a;
     position: absolute;
-    margin-top: 50px;
+    margin-top: 2%;
     margin-bottom: 2px;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -157,7 +158,7 @@ body {
 }
 
 #time {
-    font-size: 5vh;
+    font-size: 100%;
     font-family: Nunito, sans-serif;
     position: absolute;
     top: 30%;
