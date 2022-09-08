@@ -2,36 +2,6 @@ body {
     background-color: #080115;
 }
 
-#team1 {
-    max-width: 80%;
-    min-width: 50%;
-    max-height: 80%;
-    min-height: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-
-#team2 {
-    max-width: 80%;
-    min-width: 50%;
-    max-height: 80%;
-    min-height: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-
-#scoreBoard {
-    height: 70vh;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-
 #frame {
     width: 900px;
     height: 700px;
@@ -41,56 +11,6 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-}
-
-#score {
-    font-size: 10vh;
-    font-family: Nunito, sans-serif;
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-
-#logo1, #logo2 {
-    resize: none;
-    width: 200px;
-    height: 200px;
-    min-width:100px;
-    min-height:100px;
-    background-color: rgb(224, 220, 220);
-    border-radius: 30px;
-    position: absolute;
-}
-
-#teamName1, #teamName2 {
-    font-size: 30px;
-    font-family: Nunito, sans-serif;
-    position: relative;
-    width: auto;
-    text-align: center;
-    top: 130%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-
-#teamName2 {
-    right: 50%;
-}
-
-.team1,.team2 {
-    width: 20vh;
-    height: 20vh;
-    position: absolute;
-    top: 5%;
-}
-
-.team1 {
-    left: 15%;
-}
-
-.team2 {
-    right: 15%;
 }
 
 #nextMatch, #previousMatch {
@@ -118,50 +38,3 @@ body {
     right: 0%;
 }
 
-#statistics {
-    width: auto;
-    height: 70vh;
-    position: relative;
-    margin-top: 0px;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-
-#possesion{
-    height: 2vh;
-    width: 60vh;
-    position: absolute;
-    background-color: rgb(215, 215, 215);
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-
-#homeProcent, #awayProcent  {
-    height: 20px;
-    width: 20px;
-    position: absolute;
-    padding-right: 10px;
-    background-color: rgb(255, 255, 255);
-}
-
-#awayProcent {
-    padding-left: 10px;
-    right: 0%;
-}
-
-#barPossesion {
-    position: absolute;
-    margin-left: 20px;
-    width: 50%;
-    height: 2vh;
-    background-color: #080115;
-}
-
-#time {
-    font-size: 100%;
-    font-family: Nunito, sans-serif;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
