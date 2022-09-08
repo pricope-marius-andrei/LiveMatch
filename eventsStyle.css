@@ -1,0 +1,42 @@
+#footballEvents {
+    overflow: auto;
+    height: 30vh;
+    width: 75vh;
+    position: relative;
+    top: -31%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+football-event {
+    margin: 20px;
+    display: grid;
+    gap: 10px;
+}
+
+.eventImg {
+    height: 40px;
+    width: 40px;
+    margin-left: 47.5%;
+}
+
+.eventTime {
+    font-family: Nunito, sans-serif;
+    text-align: center;
+}
+
+.eventPlayer {
+    font-family: Nunito,sans-serif;
+    text-align: center;
+}
+::-webkit-scrollbar {
+    background-color: #e0d9ee;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #e0d9ee;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #080115;
+}

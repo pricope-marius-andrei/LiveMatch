@@ -1,0 +1,89 @@
+#logo1 {
+    max-width: 80%;
+    min-width: 50%;
+    max-height: 80%;
+    min-height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#logo2 {
+    max-width: 80%;
+    min-width: 50%;
+    max-height: 80%;
+    min-height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#scoreBoard {
+    height: 70vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+#score {
+    font-size: 10vh;
+    font-family: Nunito, sans-serif;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#team1, #team2 {
+    resize: none;
+    width: 200px;
+    height: 200px;
+    min-width:100px;
+    min-height:100px;
+    background-color: rgb(224, 220, 220);
+    border-radius: 30px;
+    position: absolute;
+}
+
+#teamName1, #teamName2 {
+    font-size: 30px;
+    font-family: Nunito, sans-serif;
+    position: relative;
+    width: auto;
+    text-align: center;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#teamName2 {
+    right: 50%;
+}
+
+.homeTeam,.awayTeam {
+    width: 20vh;
+    height: 20vh;
+    position: absolute;
+    top: 5%;
+}
+
+.homeTeam {
+    left: 15%;
+}
+
+.awayTeam {
+    right: 15%;
+}
+
+#time {
+    font-size: 100%;
+    font-family: Nunito, sans-serif;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
